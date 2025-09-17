@@ -22,6 +22,10 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(theme: theme, home: TabScreen());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: theme,
+      home: TabScreen(),
+    );
   }
 }

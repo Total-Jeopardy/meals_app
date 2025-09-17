@@ -27,12 +27,12 @@ class CategoryItem extends StatelessWidget {
           ),
         ),
         child: Padding(
-          padding: const EdgeInsets.all(30.0),
+          padding: const EdgeInsets.all(25.0),
           child: Text(
             category.title,
-            style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-              fontSize: 20,
+            style: Theme.of(context).textTheme.titleMedium!.copyWith(
               fontWeight: FontWeight.bold,
+              fontSize: 17,
               color: Theme.of(context).colorScheme.onSurface,
             ),
           ),
